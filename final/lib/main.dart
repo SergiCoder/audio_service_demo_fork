@@ -33,12 +33,12 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         body: Padding(
-          padding: const EdgeInsets.all(20.0),
+          padding: EdgeInsets.all(20.0),
           child: Column(
-            children: const [
+            children: [
               CurrentSongTitle(),
               Playlist(),
               AddRemoveSongButtons(),
@@ -139,11 +139,11 @@ class AudioControlButtons extends StatelessWidget {
   const AudioControlButtons({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return const SizedBox(
       height: 60,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: const [
+        children: [
           RepeatButton(),
           PreviousSongButton(),
           PlayButton(),

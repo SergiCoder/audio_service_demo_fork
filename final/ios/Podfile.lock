@@ -21,7 +21,7 @@ DEPENDENCIES:
   - audio_session (from `.symlinks/plugins/audio_session/ios`)
   - Flutter (from `Flutter`)
   - just_audio (from `.symlinks/plugins/just_audio/ios`)
-  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
 
 SPEC REPOS:
@@ -38,7 +38,7 @@ EXTERNAL SOURCES:
   just_audio:
     :path: ".symlinks/plugins/just_audio/ios"
   path_provider_foundation:
-    :path: ".symlinks/plugins/path_provider_foundation/ios"
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
   sqflite:
     :path: ".symlinks/plugins/sqflite/ios"
 
@@ -51,6 +51,6 @@ SPEC CHECKSUMS:
   path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
   sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
 
-PODFILE CHECKSUM: efc9dbfbbd11e0626b0c981585dd40d203718727
+PODFILE CHECKSUM: c3ee7488afc7c1e1b2de8d39c83e44cc15ed5d5e
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
